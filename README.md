@@ -4,7 +4,8 @@ A fully responsive, high-fidelity landing page inspired by the official Nike web
 
 ## 🌍 Live Demo
 
-[🔗 View Project Online](https://ken-aky.github.io/Nike-landing-page/​)  
+[🔗 View Project Online](https://ken-aky.github.io/Nike-landing-page/)  
+
 
 ---
 
