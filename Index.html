@@ -1,0 +1,611 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nike. Just Do It. Nike DE</title>
+    <link rel="stylesheet" href="Style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+<!-- ──────────────────── HEADER ──────────────────── -->
+
+<section class="Header">
+    <!-- linke Marken‑Icons (Jordan / Converse) -->
+    <div class="Header-left">
+        <div class="Header-img-container">
+            <img class="Header-img Jordan" src="./Images/Jordan.png" alt="Jump High" />
+        </div>
+        <div class="Header-img-container">
+            <img class="Header-img Converse" src="./Images/Converse.png" alt="Converse" />
+        </div>
+    </div>
+
+    <!-- rechte Utility‑Navigation (Store | Hilfe‑Dropdown | Join / Login) -->
+    <div class="Header-right">
+        <div class="Header-right-container">
+            <a href="#" class="Header-link">Store suchen</a>
+            <img src="./Images/line.png" class="vertical-line" alt="|" />
+
+            <!-- „Hilfe“ mit Hover‑Dropdown -->
+            <div class="Dropdown-wrapper">
+                <div class="Hilfe-container">
+                    <a href="#" class="Header-link">Hilfe</a>
+                </div>
+                <div class="Dropdown">
+                    <h2 class="Popup-heading">Hilfe</h2>
+                    <!-- Kurzlinks für Service‑Themen -->
+                    <a href="#">Bestellstatus</a>
+                    <a href="#">Versand und Lieferung</a>
+                    <a href="#">Rücksendung</a>
+                    <a href="#">Größentabelle</a>
+                    <a href="#">Kontakt</a>
+                    <a href="#">Datenschutzrichtlinien</a>
+                    <a href="#">Verkaufsbedingungen</a>
+                    <a href="#">Nutzungsbedingungen</a>
+                    <a href="#">Sende uns Feedback</a>
+                </div>
+            </div>
+            <img src="./Images/line.png" class="vertical-line" alt="|" />
+            <a href="#" class="Header-link">Sei dabei</a>
+            <img src="./Images/line.png" class="vertical-line" alt="|" />
+            <a href="#" class="Header-link">Anmelden</a>
+        </div>
+    </div>
+</section>
+
+<!-- ──────────────────── NAVBAR (Haupt‑Menü) ──────────────────── -->
+
+<section class="Navbar">
+    <!-- zentrales Logo -->
+    <div class="Navbar-logo">
+        <img src="./Images/nike.png" class="logo" alt="Nike Logo" />
+    </div>
+
+    <!-- mittlere Link‑Leiste mit Mega‑Dropdowns -->
+    <div class="Navbar-center">
+        <div class="Navbar-links">
+            <!-- jeder .Link‑X‑Block = Hauptpunkt + Mega‑Dropdown -->
+            <div class="Link-1">
+                <a class="Link-main" href="#">Neues und Highlights</a>
+                <!-- Ausklappmenü (4 Spalten) -->
+                <div class="Link-dropdown">
+                    <div class="Dropdown-column">
+                        <h4>Highlights</h4>
+                        <a href="#">Alle Neuerscheinungen anzeigen</a>
+                        <a href="#">Bestseller</a>
+                        <a href="#">Launch Kalender</a>
+                        <a href="#">AeroFlex Home</a>
+                    </div>
+                    <div class="Dropdown-column">
+                        <h4>Legendäre Styles</h4>
+                        <a href="#">Flight Force 1</a>
+                        <a href="#">Jump High 1</a>
+                        <a href="#">AeroFlex</a>
+                        <a href="#">Sky Dunk</a>
+                        <a href="#">Blaze Runner</a>
+                        <a href="#">Comet Runner</a>
+                        <a href="#">Velocity Pro</a>
+                    </div>
+                    <div class="Dropdown-column">
+                        <h4>Jump High</h4>
+                        <a href="#">Alle Jump High Produkte</a>
+                        <a href="#">Diesen Monat neu</a>
+                        <a href="#">Jump High Streetwear</a>
+                        <a href="#">Jump High Basketball</a>
+                        <a href="#">Jump High Golf</a>
+                        <a href="#">Jump High × PSG</a>
+                    </div>
+                    <div class="Dropdown-column">
+                        <h4>Die Welt des Sports</h4>
+                        <a href="#">Fußball</a>
+                        <a href="#">Laufen</a>
+                        <a href="#">Basketball</a>
+                        <a href="#">Training und Fitness</a>
+                        <a href="#">Golf</a>
+                        <a href="#">Tennis</a>
+                        <a href="#">Yoga</a>
+                        <a href="#">Tanzen</a>
+                        <a href="#">Skateboarding</a>
+                    </div>
+                </div>
+            </div>
+            <div class="Link-2">
+                <a class="Link-main" href="#">Herren</a>
+                <div class="Link-dropdown">
+                    <div class="Dropdown-column">
+                        <h4>Highlights</h4>
+                        <a href="#">Neuheiten</a>
+                        <a href="#">Bestseller</a>
+                        <a href="#">Retro-Laufschuhe</a>
+                        <a href="#">AeroFlex Home</a>
+                    </div>
+                    <div class="Dropdown-column">
+                        <h4>Schuhe</h4>
+                        <a href="#">Alle Schuhe</a>
+                        <a href="#">Lifestyle</a>
+                        <a href="#">Jump High</a>
+                        <a href="#">Laufen</a>
+                        <a href="#">Fußball</a>
+                        <a href="#">Basketball</a>
+                        <a href="#">Training und Fitness</a>
+                        <a href="#">Skateboarding</a>
+                        <a href="#">Customize By You</a>
+                    </div>
+                    <div class="Dropdown-column">
+                        <h4>Bekleidung</h4>
+                        <a href="#">Gesamte Bekleidung</a>
+                        <a href="#">Hoodies und Sweatshirts</a>
+                        <a href="#">Jacken</a>
+                        <a href="#">Hosen und Leggings</a>
+                        <a href="#">Tracksuits</a>
+                        <a href="#">Oberteile und T‑Shirts</a>
+                        <a href="#">Shorts</a>
+                        <a href="#">Trikots und Trikot‑Sets</a>
+                    </div>
+                    <div class="Dropdown-column">
+                        <h4>Die Welt des Sports</h4>
+                        <a href="#">Laufen</a>
+                        <a href="#">Fußball</a>
+                        <a href="#">Basketball</a>
+                        <a href="#">Training und Fitness</a>
+                        <a href="#">Tennis</a>
+                        <a href="#">Golf</a>
+                    </div>
+                    <div class="Dropdown-column">
+                        <h4>Accessoires und Equipment</h4>
+                        <a href="#">Alle Accessoires und Equipment</a>
+                        <a href="#">Taschen und Rucksäcke</a>
+                        <a href="#">Headwear</a>
+                        <a href="#">Socken</a>
+                    </div>
+                </div>
+            </div>
+            <div class="Link-3">
+                <a class="Link-main" href="#">Damen</a>
+                <div class="Link-dropdown">
+                    <div class="Dropdown-column">
+                        <h4>Highlights</h4>
+                        <a href="#">Neuheiten</a>
+                        <a href="#">Bestseller</a>
+                        <a href="#">Sport Style By</a>
+                        <a href="#">AeroFlex Home</a>
+                    </div>
+                    <div class="Dropdown-column">
+                        <h4>Schuhe</h4>
+                        <a href="#">Alle Schuhe</a>
+                        <a href="#">Lifestyle</a>
+                        <a href="#">Jump High</a>
+                        <a href="#">Laufen</a>
+                        <a href="#">Training und Fitness</a>
+                        <a href="#">Fußball</a>
+                        <a href="#">Customize By You</a>
+                    </div>
+                    <div class="Dropdown-column">
+                        <h4>Bekleidung</h4>
+                        <a href="#">Gesamte Bekleidung</a>
+                        <a href="#">Hoodies und Sweatshirts</a>
+                        <a href="#">Jacken</a>
+                        <a href="#">Hosen</a>
+                        <a href="#">Leggings</a>
+                        <a href="#">Kombi‑Sets</a>
+                        <a href="#">Oberteile und T‑Shirts</a>
+                        <a href="#">Shorts</a>
+                        <a href="#">Sport‑BHs</a>
+                    </div>
+                    <div class="Dropdown-column">
+                        <h4>Die Welt des Sports</h4>
+                        <a href="#">Training und Fitness</a>
+                        <a href="#">Laufen</a>
+                        <a href="#">Fußball</a>
+                        <a href="#">Basketball</a>
+                        <a href="#">Tennis</a>
+                        <a href="#">Tanzen</a>
+                        <a href="#">Yoga</a>
+                        <a href="#">Golf</a>
+                    </div>
+                    <div class="Dropdown-column">
+                        <h4>Accessoires und Equipment</h4>
+                        <a href="#">Alle Accessoires und Equipment</a>
+                        <a href="#">Taschen und Rucksäcke</a>
+                        <a href="#">Headwear</a>
+                        <a href="#">Socken</a>
+                    </div>
+                </div>
+            </div>
+            <div class="Link-4">
+                <a class="Link-main" href="#">Kinder</a>
+                <div class="Link-dropdown">
+                    <div class="Dropdown-column">
+                        <h4>Highlights</h4>
+                        <a href="#">Neuheiten</a>
+                        <a href="#">Bestseller</a>
+                        <a href="#">Teens</a>
+                        <a href="#">AeroFlex Home</a>
+                    </div>
+                    <div class="Dropdown-column">
+                        <h4>Schuhe</h4>
+                        <a href="#">Alle Schuhe</a>
+                        <a href="#">Lifestyle</a>
+                        <a href="#">Jump High</a>
+                        <a href="#">Fußball</a>
+                        <a href="#">Laufen</a>
+                        <a href="#">Basketball</a>
+                    </div>
+                    <div class="Dropdown-column">
+                        <h4>Bekleidung</h4>
+                        <a href="#">Gesamte Bekleidung</a>
+                        <a href="#">Hoodies und Sweatshirts</a>
+                        <a href="#">Jacken</a>
+                        <a href="#">Hosen und Leggings</a>
+                        <a href="#">Tracksuits</a>
+                        <a href="#">Kombi‑Sets</a>
+                        <a href="#">Oberteile und T‑Shirts</a>
+                        <a href="#">Shorts</a>
+                        <a href="#">Trikots und Trikot‑Sets</a>
+                    </div>
+                    <div class="Dropdown-column">
+                        <h4>Produkte nach Alter</h4>
+                        <a href="#">Ältere Kinder (7–15 Jahre)</a>
+                        <a href="#">Jüngere Kinder (3–7 Jahre)</a>
+                        <a href="#">Babys und Kleinkinder (0–3 J.)</a>
+                    </div>
+                    <div class="Dropdown-column">
+                        <h4>Accessoires und Equipment</h4>
+                        <a href="#">Alle Accessoires und Equipment</a>
+                        <a href="#">Taschen und Rucksäcke</a>
+                        <a href="#">Headwear</a>
+                        <a href="#">Socken</a>
+                    </div>
+                </div>
+            </div>
+            <div class="Link-5">
+                <a class="Link-main" href="#">Angebote</a>
+                <div class="Link-dropdown">
+                    <div class="Dropdown-column">
+                        <h4>Sale</h4>
+                        <a href="#">Alle Sale‑Produkte anzeigen</a>
+                        <a href="#">Bestseller</a>
+                        <a href="#">Letzte Chance</a>
+                    </div>
+                    <div class="Dropdown-column">
+                        <h4>Angebote für Herren</h4>
+                        <a href="#">Alle Angebote für Herren</a>
+                        <a href="#">Schuhe</a>
+                        <a href="#">Bekleidung</a>
+                        <a href="#">Accessoires und Equipment</a>
+                    </div>
+                    <div class="Dropdown-column">
+                        <h4>Angebote für Damen</h4>
+                        <a href="#">Alle Angebote für Damen</a>
+                        <a href="#">Schuhe</a>
+                        <a href="#">Bekleidung</a>
+                        <a href="#">Accessoires und Equipment</a>
+                    </div>
+                    <div class="Dropdown-column">
+                        <h4>Angebote für Kinder</h4>
+                        <a href="#">Alle Angebote für Kinder</a>
+                        <a href="#">Schuhe</a>
+                        <a href="#">Bekleidung</a>
+                        <a href="#">Accessoires und Equipment</a>
+                    </div>
+                    <div class="Dropdown-column">
+                        <h4>Angebote nach Sportart</h4>
+                        <a href="#">Laufen</a>
+                        <a href="#">Fußball</a>
+                        <a href="#">Training und Fitness</a>
+                        <a href="#">Basketball</a>
+                        <a href="#">Tennis</a>
+                        <a href="#">Golf</a>
+                        <a href="#">Yoga</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Icon‑Leiste (Suche / Favoriten / Bag) -->
+    <div class="Navbar-right">
+        <div class="Navbar-icons">
+            <div class="icon-container">
+                <svg class="Search-icon" aria-hidden="true" focusable="false" viewBox="0 0 24 24" role="img" width="24px" height="24px" fill="none">
+                    <path stroke="currentColor" stroke-width="1.5" d="M13.962 16.296a6.716 6.716 0 01-3.462.954 6.728 6.728 0 01-4.773-1.977A6.728 6.728 0 013.75 10.5c0-1.864.755-3.551 1.977-4.773A6.728 6.728 0 0110.5 3.75c1.864 0 3.551.755 4.773 1.977A6.728 6.728 0 0117.25 10.5a6.726 6.726 0 01-.921 3.407c-.517.882-.434 1.988.289 2.711l3.853 3.853"></path>
+                </svg>
+            </div>
+            <div class="icon-container">
+                <svg class="Heart-icon" aria-hidden="true" focusable="false" viewBox="0 0 24 24" role="img" width="24px" height="24px" fill="none">
+                    <path stroke="currentColor" stroke-width="1.5" d="M16.794 3.75c1.324 0 2.568.516 3.504 1.451a4.96 4.96 0 010 7.008L12 20.508l-8.299-8.299a4.96 4.96 0 010-7.007A4.923 4.923 0 017.205 3.75c1.324 0 2.568.516 3.504 1.451l.76.76.531.531.53-.531.76-.76a4.926 4.926 0 013.504-1.451"></path>
+                </svg>
+            </div>
+            <div class="icon-container">
+                <svg class="Bag-icon" aria-hidden="true" focusable="false" viewBox="0 0 24 24" role="img" width="24px" height="24px" fill="none">
+                    <path stroke="currentColor" stroke-width="1.5" d="M8.25 8.25V6a2.25 2.25 0 012.25-2.25h3a2.25 2.25 0 110 4.5H3.75v8.25a3.75 3.75 0 003.75 3.75h9a3.75 3.75 0 003.75-3.75V8.25H17.5"></path>
+                </svg>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ──────────────────── HAUPT­BEREICH ──────────────────── -->
+
+<section class="main">
+
+    <!-- Hero‑Banner (AeroFlex DN8) -->
+    <div class="airmax">
+        <div class="Airmax-img-container">
+            <img class="Airmax-img" src="./Images/MainImg.png" alt="Vorschaubild" />
+        </div>
+        <div class="Airmax-banner">
+            <p class="Airmax-text text-1">Unreal Motion</p>
+            <h1 class="Airmax-heading">AEROFLEX DN8</h1>
+            <p class="Airmax-text">Entdecke die energiegeladenen Moves</p>
+            <button class="Airmax-btn">Entdecken</button>
+        </div>
+    </div>
+
+    <!-- zweispaltiges Produkt‑Grid -->
+    <div class="Category grid">
+        <div class="grid-1">
+            <img src="./Images/Shoe1.jpg" alt="LD‑1000 Sneaker">
+            <h4 class="grid-heading">LD‑1000</h4>
+            <p class="grid-text">Sport Style By</p>
+            <button class="grid-btn">Entdecken</button>
+        </div>
+        <div class="grid-2">
+            <img src="./Images/Shoe2.jpg" alt="Prism Pack Sneaker">
+            <h4 class="grid-heading">Prism Pack</h4>
+            <p class="grid-text">Für einen starken Auftritt</p>
+            <button class="grid-btn">Entdecken</button>
+        </div>
+        <div class="grid-3">
+            <img src="./Images/Shoe4.jpg" alt="Swift & Stride Laufschuh">
+            <h4 class="grid-heading">Swift & Stride</h4>
+            <p class="grid-text">Lauflooks für den Frühling</p>
+            <button class="grid-btn">Entdecken</button>
+        </div>
+        <div class="grid-4">
+            <img src="./Images/Shoe5.jpg" alt="Running Fast Pack">
+            <h4 class="grid-heading">Running: Fast Pack</h4>
+            <p class="grid-text">Schneller Tempo‑Boost</p>
+            <button class="grid-btn">Entdecken</button>
+        </div>
+
+        <!-- breite „grid‑5“‑Tile (2 Spalten) -->
+        <div class="grid-5">
+            <picture>
+              <source media="(max-width: 840px)" srcset="./Images/Athlete2.jpg"/>
+              <img src="./Images/Athlete2.jpg" alt="Footballspieler mit Ball in Wurfbewegung"/>
+            </picture>
+            <h4 class="grid-heading">Die Favoriten der Athleti:innen</h4>
+            <button class="grid-btn">Entdecken</button>
+        </div>
+    </div>
+
+    <!-- horizontale Klassiker‑Leiste (Image‑Slider) -->
+    
+    <div class="Classics">
+        <h2 class="Classics-heading">Klassiker entdecken</h2>
+        <div class="Classic-bar">
+            <div class="Classic">
+                <img src="./Images/Shoe6.jpg" alt="AeroFlex Sneaker">
+                <button class="grid-btn">AeroFlex</button>
+            </div>
+            <div class="Classic">
+                <img src="Images/Shoe7.jpg" alt="Y2K Sneaker">
+                <button class="grid-btn">Y2K</button>
+            </div>
+            <div class="Classic">
+                <img src="./Images/Shoe8.jpg" alt="Flight Force 1 Sneaker">
+                <button class="grid-btn">Flight Force 1</button>
+            </div>
+            <div class="Classic">
+                <img src="./Images/Shoe9.jpg" alt="Field Pro Sneaker">
+                <button class="grid-btn">Field Pro</button>
+            </div>
+            <div class="Classic">
+                <img src="./Images/Shoe10.jpg" alt="Jump High Sneaker">
+                <button class="grid-btn">Jump High</button>
+            </div>
+            <div class="Classic">
+                <img src="./Images/Shoe11.jpg" alt="Comet Runner Sneaker">
+                <button class="grid-btn">Comet Runner</button>
+            </div>
+            <div class="Classic">
+                <img src="./Images/Shoe12.jpg" alt="MetFit Sneaker">
+                <button class="grid-btn">MetFit</button>
+            </div>
+            <div class="Classic">
+                <img src="./Images/Shoe13.jpg" alt="Velocity Pro Sneaker">
+                <button class="grid-btn">Velocity Pro</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Vier‑spaltiges Footer‑Menü „Shop by …“ -->
+
+    <div class="menu">
+        <div class="menu-row">
+
+            <!-- jeweilige Kategorie mit Fly‑out (hover/desktop) -->
+            <div class="menu-column">
+                <div class="menu-trigger">
+                    <h3>Schuhe</h3>
+                </div>
+                <div class="menu-links">
+                    <a href="#">Schwarze Laufschuhe</a>
+                    <a href="#">Weiße Laufschuhe</a>
+                    <a href="#">P‑6000 Schuhe</a>
+                    <a href="#">Starter Runner</a>
+                    <div class="dropdown-menu">
+                        <a href="#">V2K Run Schuhe</a>
+                        <a href="#">ShockX</a>
+                        <a href="#">Grid Sneaker</a>
+                        <a href="#">Corteo Classic</a>
+                        <a href="#">Vomerio Runner</a>
+                        <a href="#">Schwarze Sneaker</a>
+                        <a href="#">Motiva Schuhe</a>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-column">
+                <div class="menu-trigger">
+                    <h3>Bekleidung</h3>
+                </div>
+                <div class="menu-links">
+                    <a href="#">Yoga‑Hosen</a>
+                    <a href="#">Trainingshosen aus Tech Fleece</a>
+                    <a href="#">Tech Fleece</a>
+                </div>
+            </div>
+            <div class="menu-column">
+                <div class="menu-trigger">
+                    <h3>Kinder</h3>
+                </div>
+                <div class="menu-links">
+                    <a href="#">Schwarze Schuhe für Jungen</a>
+                    <a href="#">Schwarze Schuhe für Mädchen</a>
+                </div>
+            </div>
+            <div class="menu-column">
+                <div class="menu-trigger">
+                    <h3>Highlights</h3>
+                </div>
+                <div class="menu-links">
+                    <a href="#">Fußballclubs</a>
+                    <a href="#">Fußball</a>
+                    <a href="#">Sport England</a>
+                    <a href="#">Run Club</a>
+                    <div class="dropdown-menu">
+                        <a href="#">Training Club</a>
+                        <a href="#">Geschenkideen</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ──────────────────── FOOTER ──────────────────── -->
+
+<section class="Footer">
+
+    <!-- Desktop‑Footer: vier statische Spalten -->
+    <div class="footer-menu-standard">
+        <div class="footer-column">
+            <h4>Ressourcen</h4>
+            <a href="#">Geschenkgutscheine</a>
+            <a href="#">Geschenkgutscheine für Firmen</a>
+            <a href="#">Store suchen</a>
+            <a href="#">Nike Journal</a>
+            <a href="#">Member werden</a>
+            <a href="#">Studentenrabatt</a>
+            <a href="#">Feedback</a>
+            <a href="#">Aktionscodes</a>
+        </div>
+        <div class="footer-column">
+            <h4>Hilfe</h4>
+            <a href="#">Hilfe</a>
+            <a href="#">Bestellstatus</a>
+            <a href="#">Versand und Lieferung</a>
+            <a href="#">Rückgaben</a>
+            <a href="#">Zahlungsoptionen</a>
+            <a href="#">Kontakt</a>
+            <a href="#">Bewertungen</a>
+            <a href="#">Aktionscodes – Hilfe</a>
+        </div>
+        <div class="footer-column">
+            <h4>Unternehmen</h4>
+            <a href="#">Über Nike</a>
+            <a href="#">Neuigkeiten</a>
+            <a href="#">Karriere</a>
+            <a href="#">Investoren</a>
+            <a href="#">Nachhaltigkeit</a>
+            <a href="#">Barrierefreiheit</a>
+            <a href="#">Mission</a>
+            <a href="#">Bedenken melden</a>
+        </div>
+        <div class="footer-column country-select">
+            <a href="#" class="country-link">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="1.5">
+                    <path d="M21.75 12A9.75 9.75 0 0112 21.75 ..."/>
+                </svg>
+                Deutschland
+            </a>
+        </div>
+    </div>
+
+    <!-- Mobile‑Footer (Details‑Accordion) -->
+    <div class="footer-menu">
+        <details class="footer-column">
+            <summary><h4>Ressourcen</h4></summary>
+            <a href="#">Geschenkgutscheine</a>
+            <a href="#">Geschenkgutscheine für Firmen</a>
+            <a href="#">Store suchen</a>
+            <a href="#">Nike Journal</a>
+            <a href="#">Member werden</a>
+            <a href="#">Studentenrabatt</a>
+            <a href="#">Feedback</a>
+            <a href="#">Aktionscodes</a>
+        </details>
+        <details class="footer-column">
+            <summary><h4>Hilfe</h4></summary>
+            <a href="#">Hilfe</a>
+            <a href="#">Bestellstatus</a>
+            <a href="#">Versand und Lieferung</a>
+            <a href="#">Rückgaben</a>
+            <a href="#">Zahlungsoptionen</a>
+            <a href="#">Kontakt</a>
+            <a href="#">Bewertungen</a>
+            <a href="#">Aktionscodes – Hilfe</a>
+        </details>
+        <details class="footer-column">
+            <summary><h4>Unternehmen</h4></summary>
+            <a href="#">Über Nike</a>
+            <a href="#">Neuigkeiten</a>
+            <a href="#">Karriere</a>
+            <a href="#">Investoren</a>
+            <a href="#">Nachhaltigkeit</a>
+            <a href="#">Barrierefreiheit</a>
+            <a href="#">Mission</a>
+            <a href="#">Bedenken melden</a>
+        </details>
+        <div class="footer-column country-select">
+            <a href="#" class="country-link">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="1.5">
+                    <path d="M21.75 12A9.75 9.75 0 0112 21.75 ..."/>
+                </svg>
+                Deutschland
+            </a>
+        </div>
+    </div>
+
+    <!-- unterster Footer‑Block: Copyright + Links -->
+
+    <footer class="site-footer">
+        <div class="footer-top">
+            <p class="footer-copy">© 2025 Alle Rechte vorbehalten</p>
+            <details class="footer-guides">
+                <summary>Guides</summary>
+                <ul>
+                    <li><a href="#">Aero Air</a></li>
+                    <li><a href="#">AeroFlex</a></li>
+                    <li><a href="#">FlyEasy</a></li>
+                    <li><a href="#">Comet Runner</a></li>
+                    <li><a href="#">Rebound Foam</a></li>
+                    <li><a href="#">VaporRun</a></li>
+                </ul>
+            </details>
+            <nav class="footer-nav">
+                <a href="#">Nutzungsbedingungen</a>
+                <a href="#">Verkaufsbedingungen</a>
+                <a href="#">Impressum</a>
+            </nav>
+        </div>
+        <div class="footer-bottom">
+            <a href="#">Datenschutz‑ und Cookie‑Richtlinie</a>
+            <a href="#">Datenschutz‑ und Cookie‑Einstellung</a>
+        </div>
+    </footer>
+</section>
+</body>
+</html>
