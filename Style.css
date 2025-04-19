@@ -334,6 +334,8 @@ body {
   width: 100%;
   height: auto;
   display: block;
+  object-fit: cover;        
+  object-position: left;      
 }
 
 .Airmax-banner {
@@ -388,6 +390,11 @@ body {
   .Airmax-banner {
     width: 90%;
   }
+
+  .Airmax-img-container {
+    overflow: hidden;
+  }
+  
   .Airmax-img {
     width: 200%;
     object-position: left;
